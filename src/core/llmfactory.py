@@ -13,22 +13,26 @@ class LLMFactory:
             "connector": OpenAICompatibleConnector,
             "default_model": "",
         },
+
         "deepseek": {
             "base_url": "https://api.deepseek.com",
             "connector": OpenAICompatibleConnector,
             "default_model": "deepseek-chat",
         },
+
         # https://www.alibabacloud.com/help/en/model-studio/first-api-call-to-qwen
         "qwen": {
             "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
             "connector": OpenAICompatibleConnector,
             "default_model": "qwen-plus",
         }, 
+
         "grok": {
             "base_url": "https://api.x.ai/v1",
             "connector": OpenAICompatibleConnector,
             "default_model": "",
         },
+
         "anthropic": {
             "base_url": "https://api.anthropic.com",
             "connector": AnthropicConnector,
